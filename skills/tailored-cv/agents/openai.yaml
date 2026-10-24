@@ -1,0 +1,5 @@
+interface:
+  display_name: "Tailored CV"
+  short_description: "Tailor your CV truthfully to one job"
+  brand_color: "#1E6BFF"
+  default_prompt: "Use $tailored-cv to tailor my CV to this job description."

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "sponsorship-cv",
+  "version": "1.0.0",
+  "description": "Write a truthful, tailored UK-style CV and cover letter for a specific job, using only your own CV and the job description.",
+  "author": {
+    "name": "Richard Ogundele",
+    "url": "https://spathglobal.com"
+  },
+  "homepage": "https://spathglobal.com",
+  "license": "MIT",
+  "keywords": ["cv", "resume", "cover-letter", "job-search", "uk-jobs", "careers"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Sponsorship CV",
+        "shortDescription": "Tailor your CV and cover letter to a job.",
+        "longDescription": "Sponsorship CV turns your existing CV and a job description into a tailored, UK-style CV and a specific cover letter. It works only from the facts you provide, asks about gaps instead of inventing anything, and ends with a checklist of what to verify before you apply. It does not search for jobs, submit applications or give immigration advice.",
+        "developerName": "Richard Ogundele",
+        "category": "Productivity",
+        "capabilities": [],
+        "websiteURL": "https://spathglobal.com/plugin-support",
+        "privacyPolicyURL": "https://spathglobal.com/privacy",
+        "termsOfServiceURL": "https://spathglobal.com/terms",
+        "defaultPrompt": [
+          "Tailor my CV to this job description.",
+          "Write a cover letter for this role using my CV.",
+          "Check which requirements in this job advert my CV is missing."
+        ],
+        "brandColor": "#1E6BFF",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}

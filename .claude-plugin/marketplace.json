@@ -1,0 +1,15 @@
+{
+  "name": "spath-global",
+  "description": "Free job search plugins from SPath Global.",
+  "owner": {
+    "name": "Richard Ogundele",
+    "url": "https://spathglobal.com"
+  },
+  "plugins": [
+    {
+      "name": "sponsorship-cv",
+      "source": "./",
+      "description": "Truthful, tailored UK-style CVs and cover letters from your own CV and a job description."
+    }
+  ]
+}

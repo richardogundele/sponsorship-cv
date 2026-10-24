@@ -1,0 +1,18 @@
+{
+  "name": "sponsorship-cv",
+  "displayName": "Sponsorship CV",
+  "version": "1.0.0",
+  "description": "Write a truthful, tailored UK-style CV and cover letter for a specific job, using only your own CV and the job description. Free from SPath Global.",
+  "author": {
+    "name": "Richard Ogundele",
+    "url": "https://spathglobal.com"
+  },
+  "homepage": "https://spathglobal.com",
+  "repository": "https://github.com/richardogundele/sponsorship-cv",
+  "license": "MIT",
+  "keywords": ["cv", "resume", "cover-letter", "job-search", "uk-jobs", "careers"],
+  "icon": "./assets/icon.png",
+  "supportUrl": "https://spathglobal.com/plugin-support",
+  "privacyPolicyUrl": "https://spathglobal.com/privacy",
+  "termsOfServiceUrl": "https://spathglobal.com/terms"
+}
